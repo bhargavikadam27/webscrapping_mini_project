@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 21 16:55:39 2020
-
-@author: hp
-"""
 
 from selenium import webdriver
 import csv
@@ -16,7 +10,7 @@ driver.get('https://www.youtube.com/watch?v=iFPMz36std4')
 
 driver.execute_script('window.scrollTo(1, 500);')
 
-#now wait let load the comments
+
 time.sleep(5)
 
 driver.execute_script('window.scrollTo(1, 3000);')
